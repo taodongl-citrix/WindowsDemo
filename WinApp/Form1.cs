@@ -16,7 +16,6 @@ namespace WinApp
         {
             Application.Exit();
         }
-
         private void ok_btn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(direct.Text))
